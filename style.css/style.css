@@ -4,3 +4,8 @@ body{
 
 /* overflox-y-auto */
 
+header#header-top{
+    width: 100vw;
+    height: 30px;
+    background-color: #FFFFFF;
+}
