@@ -19,22 +19,56 @@
     <link rel="stylesheet" href="./style.css/style.css">
 </head>
 <body>
-    <header id="header-top">
-
+    <header id="header-top" class="d-flex align-items-center">
+        <div> 
+            <img class="d-lg-none" src="./img/mobile-logo.png" alt="picture logo small boolean">
+            <img class="d-lg-inline-block d-none" src="./img/logo.svg" alt="pic logo big boolean">
+        </div>
+        <div>
+            Search
+        </div>
+        <div>
+            burger menu
+        </div>       
     </header>
-    
-    <aside>
-        <!-- aside-left, fixed height 100% less header-top - two div. in d-column-between  -->
-    </aside>
-
-    <main>
+    <div class="d-flex">
+        <aside class="text-white d-flex flex-column justify-content-between align-items-center">
+            <!-- aside-left, fixed height 100% less header-top - two div. in d-column-between  -->
+            <section class="">
+                <div class="d-flex">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="d-none d-lg-flex">Home</span>
+                </div>
+                <div class="d-flex">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <span class="d-none d-lg-flex">Stats</span>
+                </div>
+                <div class="d-flex">
+                    <i class="fa-solid fa-signal"></i>
+                    <span class="d-none d-lg-flex">Signal</span>
+                </div>
+            </section>
+            <section>
+                <div class="d-flex">
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="d-none d-lg-flex">Admin</span>
+                </div>
+            </section>
+        </aside>
         <!-- main in overflow-y  -->
-        <header>
+        <main class="container-fluid">
+            <header id="header-down" class="">
             <!-- display column in xs, row in md -->
-        </header>
-
-
-    </main>
-    
+                <section class="row">
+                    <div class="col-4">Boolean</div>
+                    <div class="col-4">Studenti</div>
+                    <div class="col-4">Nuovo Studente</div>
+                </section>
+            </header>
+            <section id="prossimeclassi">
+                <h2>Prossime classi</h2>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
