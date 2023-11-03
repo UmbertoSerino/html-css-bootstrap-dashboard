@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./style.css/style.css">
 </head>
 <body>
-    <header id="header-top" class="d-flex align-items-center">
+    <header id="header-top" class="d-flex align-items-center fixed-top">
         <div> 
             <img class="d-lg-none" src="./img/mobile-logo.png" alt="picture logo small boolean">
             <img class="d-lg-inline-block d-none" src="./img/logo.svg" alt="pic logo big boolean">
@@ -31,7 +31,7 @@
             burger menu
         </div>       
     </header>
-    <div class="d-flex">
+    <div class="d-flex my_container-big">
         <aside class="text-white d-flex flex-column justify-content-between align-items-center">
             <!-- aside-left, fixed height 100% less header-top - two div. in d-column-between  -->
             <section class="">
@@ -56,17 +56,128 @@
             </section>
         </aside>
         <!-- main in overflow-y  -->
-        <main class="container-fluid">
+        <main class="overflow-auto container-fluid p-0">
             <header id="header-down" class="">
             <!-- display column in xs, row in md -->
-                <section class="row">
-                    <div class="col-4">Boolean</div>
-                    <div class="col-4">Studenti</div>
-                    <div class="col-4">Nuovo Studente</div>
+            <section class="row">
+                    <div class="col-12 d-md-none">Nuovo Studente</div>
+                    <div class="col-12 col-md-4">Boolean</div>
+                    <div class="col-12 col-md-4">Studenti</div>
+                    <div class="d-none d-md-flex col-md-4">Nuovo Studente</div>
                 </section>
             </header>
-            <section id="prossimeclassi">
-                <h2>Prossime classi</h2>
+            <section id="prossimeclassi container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Prossime Classi</h2>
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="fw-normal" scope="col">Nome</th>
+                                <th class="fw-normal" scope="col">Data Inizio</th>
+                                <th class="text-uppercase fw-normal" scope="col">Roi</th>
+                                <th class="fw-normal" scope="col">Stato</th>
+                                <th class="fw-normal" scope="col">Azioni</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="fw-normal" scope="row">Classe 75</th>
+                                <td class="">15 Feb 2021</td>
+                                <td>20%</td>
+                                <td>Done</td>
+                                <td>
+                                    <i class="fa-solid fa-pen"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="fw-normal" scope="row">Classe 76</th>
+                                <td>16 Feb 2021</td>
+                                <td>20%</td>
+                                <td>Done</td>
+                                <td>
+                                    <i class="fa-solid fa-pen"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="fw-normal" scope="row">Classe 77</th>
+                                <td>17 Feb 2021</td>
+                                <td>20%</td>
+                                <td>Process</td>
+                                <td>
+                                  <i class="fa-solid fa-pen"></i>
+                                  <i class="fa-solid fa-trash"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="fw-normal" scope="row">Classe 78</th>
+                                <td>18 Feb 2021</td>
+                                <td>20%</td>
+                                <td>Done</td>
+                                <td>
+                                    <i class="fa-solid fa-pen"></i>
+                                    <i class="fa-solid fa-trash"></i>
+                                </td>
+                            </tr>
+                          <tr>
+                            <th class="fw-normal" scope="row">Classe 79</th>
+                            <td>19 Feb 2021</td>
+                            <td>20%</td>
+                            <td>Failed</td>
+                            <td>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash"></i>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th class="fw-normal" scope="row">Classe 80</th>
+                            <td>20 Feb 2021</td>
+                            <td>20%</td>
+                            <td>Done</td>
+                            <td>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash"></i>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th class="fw-normal" scope="row">Classe 81</th>
+                            <td>21 Feb 2021</td>
+                            <td>20%</td>
+                            <td>Failed</td>
+                            <td>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash"></i>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th class="fw-normal" scope="row">Classe 82</th>
+                            <td>22 Feb 2021</td>
+                            <td>20%</td>
+                            <td>Done</td>
+                            <td>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash"></i>
+                            </td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>      
+            </section>
+            <section id="faq" class="container">
+
+                <div>
+                    <p>Come aggiungere un nuovo studente?</p>
+                </div>
+                <div>
+                    <p>Come posso accedere alle informazioni del mio account?</p>
+                </div>
+                <div>
+                    <p>Posso usare questa dashboard da mobile?</p>
+                </div>
+
             </section>
         </main>
     </div>
