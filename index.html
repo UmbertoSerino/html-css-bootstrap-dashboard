@@ -72,7 +72,7 @@
         <header id="header-down" class="text-white row mb-4 pt-4">
             <div class="d-flex col-md-4 order-md-3">
                 <h3 class="fs-6">Nuovo Studente</h3>
-                <button type="button" class="btn btn-outline-light">+</button>
+                <button type="button" class="btn btn-outline-light btn-sm">+</button>
             </div>
             <div class="col-12 col-md-4">
                 <h3>Boolean</h3>
@@ -83,118 +83,127 @@
                 <span class="fs-4">125</span>
             </div>
         </header>
-    <!-- SECTION PROSSIME CLASSI -->
-        <section class="col-12 col-lg-8 bg-white">
-            <article id="prossimeclassi" class="col-12 border rounded-3 card">
-                <div class="card-header">
-                    <h2>Prossime Classi</h2>
-                  </div>
-                <table class="table">
-                    <thead class="">
-                    <tr>
-                        <th class="fw-normal" scope="col">Nome</th>
-                        <th class="fw-normal d-none d-md-table-cell
-                        " scope="col">Data Inizio</th>
-                        <th class="text-uppercase fw-normal d-none d-md-table-cell" scope="col">Roi</th>
-                        <th class="fw-normal" scope="col">Stato</th>
-                        <th class="fw-normal" scope="col">Azioni</th>
-                    </tr>
-                </thead>
-                <tbody class="">
-                    <tr class="">
-                        <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt=""> Classe 75</th>
-                        <td class="d-none d-md-table-cell">15 Feb 2021</td>
-                        <td class="d-none d-md-table-cell">20%</td>
-                        <td>Done</td>
-                        <td>
-                            <i class="fa-solid fa-pen"></i>
-                            <i class="fa-solid fa-trash"></i>
-                        </td>
-                    </tr>
-                    <tr class="">
-                        <th class="fw-normal" scope="row">Classe 76</th>
-                        <td class="d-none d-md-table-cell">16 Feb 2021</td>
-                        <td class="d-none d-md-table-cell">20%</td>
-                        <td>Done</td>
-                        <td>
-                            <i class="fa-solid fa-pen"></i>
-                            <i class="fa-solid fa-trash"></i>
-                        </td>
-                    </tr>
-                    <tr class="">
-                        <th class="fw-normal" scope="row">Classe 77</th>
-                        <td class="d-none d-md-table-cell">17 Feb 2021</td>
-                        <td class="d-none d-md-table-cell">20%</td>
-                        <td>Process</td>
-                        <td>
-                          <i class="fa-solid fa-pen"></i>
-                          <i class="fa-solid fa-trash"></i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th class="fw-normal" scope="row">Classe 78</th>
-                        <td class="d-none d-md-table-cell">18 Feb 2021</td>
-                        <td class="d-none d-md-table-cell">20%</td>
-                        <td>Done</td>
-                        <td>
-                            <i class="fa-solid fa-pen"></i>
-                            <i class="fa-solid fa-trash"></i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th class="fw-normal" scope="row">Classe 79</th>
-                        <td class="d-none d-md-table-cell">19 Feb 2021</td>
-                        <td class="d-none d-md-table-cell">20%</td>
-                        <td>Failed</td>
-                        <td>
-                            <i class="fa-solid fa-pen"></i>
-                            <i class="fa-solid fa-trash"></i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th class="fw-normal" scope="row">Classe 80</th>
-                        <td class="d-none d-md-table-cell">20 Feb 2021</td>
-                        <td class="d-none d-md-table-cell">20%</td>
-                        <td>Done</td>
-                        <td>
-                            <i class="fa-solid fa-pen"></i>
-                            <i class="fa-solid fa-trash"></i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th class="fw-normal" scope="row">Classe 81</th>
-                        <td class="d-none d-md-table-cell">21 Feb 2021</td>
-                        <td class="d-none d-md-table-cell">20%</td>
-                        <td>Failed</td>
-                        <td>
-                            <i class="fa-solid fa-pen"></i>
-                            <i class="fa-solid fa-trash"></i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th class="fw-normal" scope="row">Classe 82</th>
-                        <td class="d-none d-md-table-cell">22 Feb 2021</td>
-                        <td class="d-none d-md-table-cell">20%</td>
-                        <td>Done</td>
-                        <td>
-                            <i class="fa-solid fa-pen"></i>
-                            <i class="fa-solid fa-trash"></i>
-                        </td>
-                    </tr>
-                </tbody>
-                </table>
+        <!-- SECTION PROSSIME CLASSI -->
+        <section class="col-12 col-lg-8 pe-4">
+            <article id="prossimeclassi" class="col-12 card mb-4">
+                <div class="card-header mb-3">
+                    <h2 class="fs-4 m-0">Prossime Classi</h2>
+                </div>
+                <div class="container">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th class="fw-normal col-6 col-lg-5" scope="col">Nome</th>
+                            <th class="fw-normal d-none d-md-table-cell
+                            " scope="col">Data Inizio</th>
+                            <th class="text-uppercase fw-normal d-none d-md-table-cell" scope="col">Roi</th>
+                            <th class="fw-normal" scope="col">Stato</th>
+                            <th class="fw-normal" scope="col">Azioni</th>
+                        </tr>
+                    </thead>
+                    <tbody class="">
+                        <tr class="">
+                            <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 75</th>
+                            <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                            <td class="d-none d-md-table-cell">20%</td>
+                            <td>Done</td>
+                            <td>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 76</th>                            <td class="d-none d-md-table-cell">16 Feb 2021</td>
+                            <td class="d-none d-md-table-cell">20%</td>
+                            <td>Done</td>
+                            <td>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 77</th>
+                            <td class="d-none d-md-table-cell">17 Feb 2021</td>
+                            <td class="d-none d-md-table-cell">20%</td>
+                            <td>Process</td>
+                            <td>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 78</th>
+                            <td class="d-none d-md-table-cell">18 Feb 2021</td>
+                            <td class="d-none d-md-table-cell">20%</td>
+                            <td>Done</td>
+                            <td>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 79</th>
+                            <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                            <td class="d-none d-md-table-cell">20%</td>
+                            <td>Failed</td>
+                            <td>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 80</th>
+                            <td class="d-none d-md-table-cell">20 Feb 2021</td>
+                            <td class="d-none d-md-table-cell">20%</td>
+                            <td>Done</td>
+                            <td>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 81</th>
+                            <td class="d-none d-md-table-cell">21 Feb 2021</td>
+                            <td class="d-none d-md-table-cell">20%</td>
+                            <td>Failed</td>
+                            <td>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 82</th>
+                            <td class="d-none d-md-table-cell">22 Feb 2021</td>
+                            <td class="d-none d-md-table-cell">20%</td>
+                            <td>Done</td>
+                            <td>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
+                                <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
             </article>
-    <!-- SECTION FAQ -->
-            <article id="faq" class="col-12 card">
+            <!-- SECTION FAQ -->
+            <article id="faq" class="col-12 card mb-5">
                 <div class="card-header">
-                    <h2>F.A.Q.</h2>
+                    <h2 class="fs-4 m-0">F.A.Q.</h2>
                 </div>
                 <div class="container my-3">
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Come aggiungere un nuovo stundete? <button type="button" class="btn btn-link">Link</button>
+                    <ul class="list-group list-group-flush d-flex">
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span class="fw-medium">Come aggiungere un nuovo stundete?</span> 
+                        <button type="button" class="btn btn-link"><i class="fa-solid fa-chevron-down text-black"></i></button>
                       </li>
-                      <li class="list-group-item">Come posso accedere alle informazioni del mio account?</li>
-                      <li class="list-group-item">Posso usare questa dashboard da mobile?</li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span class="fw-medium">Come posso accedere alle informazioni del mio account?</span>
+                        <button type="button" class="btn btn-link"><i class="fa-solid fa-chevron-down text-black"></i></button>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span class="fw-medium">Posso usare questa dashboard da mobile?</span>
+                        <button type="button" class="btn btn-link"><i class="fa-solid fa-chevron-down text-black"></i></button>
+                    </li>
                     </ul>
                     </ul>
                 </div>
@@ -202,52 +211,58 @@
         <!-- Section Todo -->
         </section>
         <section class="col-12 col-lg-4">
-            <article class="todo col-12 card">
+            <article class="todo col-12 card mb-4">
                 <div class="card-header">
-                    <h2>Todo</h2>
+                    <h2 class="fs-4 mb-0">Todo</h2>
                 </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                          Kickoff nuove classi
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
-                        Lezione su Bootstrap 5 in classe #75
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    <label class="form-check-label" for="flexCheckChecked">
-                        Controllare username github studenti
-                    </label>
+                <div class="card m-3 fw-medium fs-6">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Kickoff nuove classi
+                            </label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Lezione su Bootstrap 5 in classe #75
+                            </label>
+                        </li>
+                        <li class="list-group-item">                        
+                            <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Controllare username github studenti
+                            </label>
+                        </li>
+                      </ul>
                 </div>
             </article>
             <!-- Section GRAPHIC -->
-            <article class="col-12 card">
-                <div class="">
-                    <img class="img-fluid" src="./img/stats.jpeg" alt="picture graphic">
-                    <h3>
-                        Utenti attivi
-                    </h3>
-                    <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+            <article class="graphic col-12 card mb-4">
+                <div class="card m-3 fw-medium fs-6">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex flex-column">
+                            <img class="img-fluid mb-4" src="./img/stats.jpeg" alt="picture graphic">
+                            <h3 class="fs-6">Utenti attivi</h3>
+                            <p class="mb-2">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                        </li>
+                        <li class="list-group-item py-1">
+                            <span>Gennaio: 1200</span>
+                        </li>
+                        <li class="list-group-item py-1">                        
+                            <span>Febbraio: 800</span>
+                        </li>
+                        <li class="list-group-item py-1">  
+                            <span>
+                                Marzo:1500
+                            </span>                      
+                        </li>
+                        <li class="list-group-item">                        
+                            <a href="">Visualizza report approfondito</a>
+                        </li>
+                      </ul>
                 </div>
-                <ul>
-                    <li>
-                        Gennaio:1200
-                    </li>
-                    <li>
-                        Febbraio:800
-                    </li>
-                    <li>
-                        Marzo:1500
-                    </li>
-                    <li>
-                        <a href="">Visualizza report approfondito</a>
-                    </li>
-                </ul>
             </article>
         </section>
     </main>

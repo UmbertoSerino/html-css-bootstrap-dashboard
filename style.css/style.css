@@ -92,6 +92,48 @@ main article#prossimeclassi img{
     width: 25px;
 }
 
+/* SECTION PROSSIME CLASSI */
+
+article#prossimeclassi{
+    font-size: .88rem;
+    font-weight: medium;
+}
+
+article#prossimeclassi button{
+    color: #6C757D;
+}
+
+/* article#prossimeclassi i{
+    font-size: .8rem;
+    padding: 0;
+} */
+
+/* SECTION TODO */
+
+article.todo label {
+    font-size: .7rem;
+}
+
+article.todo li {
+    padding: .4rem .5rem;
+}
+
+/* SECTION GRAPHIC */
+
+article.graphic p,
+article.graphic span,
+article.graphic a{
+    font-size: .74rem;
+}
+
+
+
+@keyframes {
+    
+
+    
+}
+
 @media screen and (min-width: 576px) {
 
     
@@ -104,6 +146,12 @@ main article#prossimeclassi img{
      aside i{
         margin-right: .7rem;
     }
+
+    article#prossimeclassi button,
+    article#prossimeclassi i{
+    padding: .2rem;
+    font-size: 1rem;
+}
 
      .my_wrapper-main{
         margin-left: 115px;
