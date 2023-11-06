@@ -7,6 +7,7 @@ Extra extra large	xxl	≥1400px */
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #F7F7F7;
 }
 
 /* HEADER - TOP*/
@@ -59,6 +60,7 @@ ul li{
 
 .my_wrapper-main{
     margin-left: 70px;
+    margin-top: 50px;
 }
 
 .my_container{

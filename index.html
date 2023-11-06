@@ -17,20 +17,21 @@
 </head>
 <body>
     <!-- HEADER TOP -->
-    <header id="header-top" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid d-flex"> 
+    <header id="header-top" class="navbar navbar-expand navbar-light bg-light fixed-top">
+        <div class="container-fluid"> 
             <div>
                 <img class="navbar-brand d-lg-none"src="./img/mobile-logo.png" alt="picture logo small boolean">
                 <img class=" navbar-brand d-lg-inline-block d-none" src="./img/logo.svg" alt="pic logo big boolean">
             </div>        
-            <div>
-                <h2>Searchnav</h2>
+            <div class="input-group">
+                <button class="btn bg-body-secondary" type="button" id="button-addon1"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="text" class="form-control bg-body-secondary" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Example text with button addon" aria-describedby="button-addon1">
             </div>
-            <div class="d-flex align-items-center mx-4">
-                <a href=""><i class="fa-solid fa-list px-2 d-none d-lg-flex"></i></a>
-                <a href=""><i class="fa-solid fa-circle-question px-2 d-none d-lg-flex"></i>
+            <div class="d-flex align-items-center ms-4">
+                <a href=""><i class="fa-solid fa-list d-none d-lg-flex me-3"></i></a>
+                <a href=""><i class="fa-solid fa-circle-question px-2 d-none d-lg-flex me-2"></i>
                 </a>
-                <a href=""><i class="fa-solid fa-ellipsis-vertical px-2 d-none d-lg-flex"></i>
+                <a href=""><i class="fa-solid fa-ellipsis-vertical px-2 d-none d-lg-flex me-2"></i>
                 </a>
                 <a href=""><i class="fa-solid fa-bell px-2"></i>
                 </a>
@@ -62,9 +63,9 @@
         </section>
     </aside>
     <!-- MAIN CONTAINER RIGHT -->
-    <main class="my_wrapper-main px-0 mt-5 overflow-auto row">
+    <main class="my_wrapper-main px-0 overflow-auto row">
     <!-- HEADER BOTTOM -->
-        <header id="header-down" class="text-white row">
+        <header id="header-down" class="text-white row mb-4">
             <div class="col-12 d-md-none">Nuovo Studente</div>
             <div class="col-12 col-md-4">Boolean</div>
             <div class="col-12 col-md-4">Studenti</div>
@@ -72,9 +73,11 @@
         </header>
     <!-- SECTION PROSSIME CLASSI -->
         <section class="col-12 col-lg-8">
-            <article id="prossimeclassi" class="col-12">
-                <h2>Prossime Classi</h2>
-                <table class="table table-bordered">
+            <article id="prossimeclassi" class="col-12 border">
+                <div class="border">
+                    <h2>Prossime Classi</h2>
+                </div>
+                <table class="table">
                     <thead class="">
                     <tr>
                         <th class="fw-normal" scope="col">Nome</th>
