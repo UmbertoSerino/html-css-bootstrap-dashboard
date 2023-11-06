@@ -70,17 +70,24 @@
     <main class="my_wrapper-main px-0 overflow-auto row">
     <!-- HEADER BOTTOM -->
         <header id="header-down" class="text-white row mb-4 py-4">
-            <div class="d-flex col-md-4 order-md-3">
-                <h3 class="fs-6">Nuovo Studente</h3>
-                <button type="button" class="btn btn-outline-light btn-sm">+</button>
+            <div class="col-md-4 order-md-3 text-center">
+                <h3 class="fs-6 d-inline-block me-3">Nuovo Studente</h3>
+                <button type="button" class="btn btn-outline-light btn-sm"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <h3 class="d-inline-block">Boolean</h3>
+                <a href="" class="text-white my_bg-blue rounded-5"><span class="fw-medium">Piano Blaze</span></a>
+                <a href="" class="text-white my_bg-blue rounded-5"><span>3 app</span></a>
+                <span><i class="fa-solid fa-angles-right"></i></span>
+                <a href="" class="text-white my_bg-blue rounded-5 d-lg-none"><span>+</span></a>
+                <a href="" class="text-white my_bg-blue rounded-5 d-none d-lg-inline"><span>Boolean mobile app</span></a>
+                <a href="" class="text-white my_bg-blue rounded-5 d-none d-lg-inline"><span>Boolean web app</span></a>
+                <a href="" class="text-white my_bg-blue rounded-5 d-none d-lg-inline"><span>Boolean blog app</span></a>
+
             </div>
             <div class="col-12 col-md-4">
-                <h3>Boolean</h3>
-                <a href=""></a>
-            </div>
-            <div class="col-12 col-md-4">
-                <h3 class="fs-6">Studenti online negli ultimi 30 minuti</h3>
-                <span class="fs-4">125</span>
+                <h3 class="offset-2 fs-6">Studenti online negli ultimi 30 minuti</h3>
+                <span class="offset-2 fs-4">125</span>
             </div>
         </header>
         <!-- SECTION PROSSIME CLASSI -->
@@ -94,11 +101,11 @@
                         <thead>
                         <tr>
                             <th class="fw-normal col-4 col-lg-6" scope="col">Nome</th>
-                            <th class="fw-normal d-none d-md-table-cell col-2
+                            <th class="fw-normal text-center d-none d-md-table-cell col-2
                             " scope="col">Data Inizio</th>
-                            <th class="text-uppercase fw-normal d-none d-md-table-cell col-1" scope="col">Roi</th>
-                            <th class="fw-normal col-1" scope="col">Stato</th>
-                            <th class="fw-normal2 col-3 col-md-2" scope="col">Azioni</th>
+                            <th class="text-uppercase fw-normal text-center d-none d-md-table-cell col-1" scope="col">Roi</th>
+                            <th class="fw-normal text-center col-1" scope="col">Stato</th>
+                            <th class="fw-normal text-center col-3 col-md-2" scope="col">Azioni</th>
                         </tr>
                     </thead>
                     <tbody class="">
@@ -106,7 +113,9 @@
                             <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 75</th>
                             <td class="d-none d-md-table-cell">15 Feb 2021</td>
                             <td class="d-none d-md-table-cell">20%</td>
-                            <td>Done</td>
+                            <td>
+                                <span class="bg-success rounded text-white p-1">Done</span>
+                            </td>
                             <td>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>
@@ -115,7 +124,9 @@
                         <tr class="">
                             <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 76</th>                            <td class="d-none d-md-table-cell">16 Feb 2021</td>
                             <td class="d-none d-md-table-cell">20%</td>
-                            <td>Done</td>
+                            <td>
+                                <span class="bg-success rounded text-white p-1">Done</span>
+                            </td>
                             <td>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>
@@ -125,7 +136,9 @@
                             <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 77</th>
                             <td class="d-none d-md-table-cell">17 Feb 2021</td>
                             <td class="d-none d-md-table-cell">20%</td>
-                            <td>Process</td>
+                            <td>
+                                <span class="bg-warning rounded text-white p-1">process</span>
+                            </td>
                             <td>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>
@@ -135,7 +148,9 @@
                             <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 78</th>
                             <td class="d-none d-md-table-cell">18 Feb 2021</td>
                             <td class="d-none d-md-table-cell">20%</td>
-                            <td>Done</td>
+                            <td>
+                                <span class="bg-success rounded text-white p-1">Done</span>
+                            </td>
                             <td>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>
@@ -145,7 +160,7 @@
                             <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 79</th>
                             <td class="d-none d-md-table-cell">19 Feb 2021</td>
                             <td class="d-none d-md-table-cell">20%</td>
-                            <td>Failed</td>
+                            <td><span class="bg-danger rounded text-white p-1">failed</span></td>
                             <td>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>
@@ -155,7 +170,9 @@
                             <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 80</th>
                             <td class="d-none d-md-table-cell">20 Feb 2021</td>
                             <td class="d-none d-md-table-cell">20%</td>
-                            <td>Done</td>
+                            <td>
+                                <span class="bg-success rounded text-white p-1">Done</span>
+                            </td>
                             <td>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>
@@ -165,7 +182,7 @@
                             <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 81</th>
                             <td class="d-none d-md-table-cell">21 Feb 2021</td>
                             <td class="d-none d-md-table-cell">20%</td>
-                            <td>Failed</td>
+                            <td><span class="bg-danger rounded text-white p-1">failed</span></td>
                             <td>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>
@@ -175,7 +192,9 @@
                             <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt="picture logo code tag"> Classe 82</th>
                             <td class="d-none d-md-table-cell">22 Feb 2021</td>
                             <td class="d-none d-md-table-cell">20%</td>
-                            <td>Done</td>
+                            <td>
+                                <span class="bg-success rounded text-white p-1">Done</span>
+                            </td>
                             <td>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-pen"></i></button>
                                 <button type="button" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-trash"></i></button>

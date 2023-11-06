@@ -73,9 +73,15 @@ li:hover{
     background-color: #1B72E8;
 }
 
-#header-down > div{
+#header-down a{
+    text-decoration: none;
+    font-size: .8rem;
+    padding: .2rem .5rem;
 }
 
+.my_bg-blue{
+    background-color: #165BBA;
+}
 
 /* MAIN */
 
@@ -103,6 +109,13 @@ article#prossimeclassi button{
     color: #6C757D;
 }
 
+article#prossimeclassi td{
+    text-align: center;
+}
+
+article#prossimeclassi span{
+    font-size: .7rem;
+}
 
 /* SECTION TODO */
 
@@ -122,22 +135,14 @@ article.graphic a{
     font-size: .74rem;
 }
 
-
-
-@keyframes {
-    
-
-    
-}
-
 @media screen and (min-width: 576px) {
 
-    
 }
 
 @media screen and (min-width: 992px) {
     .my_container-aside{
-        width: 115px;
+        width: 150px;
+        font-size: 1rem;
      }
      aside i{
         margin-right: .7rem;
@@ -146,6 +151,6 @@ article.graphic a{
 
 
      .my_wrapper-main{
-        margin-left: 115px;
+        margin-left: 150px;
     }
 }
