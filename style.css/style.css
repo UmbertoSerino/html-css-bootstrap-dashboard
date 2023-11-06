@@ -62,11 +62,20 @@ ul li{
     list-style-type: none;
 }
 
+li:hover{
+    background-color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
 /* HEADER-DOWN */
 
 #header-down{
     background-color: #1B72E8;
 }
+
+#header-down > div{
+}
+
 
 /* MAIN */
 
@@ -79,6 +88,10 @@ ul li{
     width: 100%;
 }
 
+main article#prossimeclassi img{
+    width: 25px;
+}
+
 @media screen and (min-width: 576px) {
 
     
@@ -89,7 +102,7 @@ ul li{
         width: 115px;
      }
      aside i{
-        margin-right: 1rem;
+        margin-right: .7rem;
     }
 
      .my_wrapper-main{

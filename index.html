@@ -43,15 +43,15 @@
     <aside class="my_container-aside col-1 d-flex flex-column justify-content-between align-items-center text-white">
         <section class="d-flex flex-column align-items-center justify-content-center">
             <ul class="p-0 mt-3">
-                <li class="d-flex align-items-center mb-2">
+                <li class="d-flex align-items-center p-2">
                     <a href=""><i class="fa-solid fa-house"></i></a>
                     <a href=""><span class="d-none d-lg-flex">Home</span></a>
                 </li>
-                <li class="d-flex align-items-center mb-2">
+                <li class="d-flex align-items-center p-2">
                     <a href=""><i class="fa-solid fa-chart-simple"></i></a>
                     <a href=""><span class="d-none d-lg-flex">Stats</span></a>
                 </li>
-                <li class="d-flex align-items-center">
+                <li class="d-flex align-items-center p-2">
                     <a href=""><i class="fa-solid fa-signal"></i></a>
                     <a href=""><span class="d-none d-lg-flex">Signal</span></a>
                 </li>
@@ -59,7 +59,7 @@
         </section>
         <section class="mb-2">
             <ul class="p-0">
-                <li class="d-flex align-items-center mb-2">
+                <li class="d-flex align-items-center p-2">
                     <a href=""><i class="fa-solid fa-gear"></i></a>
                     <a href=""><span class="d-none d-lg-flex">Admin</span></a>
                 </li>
@@ -69,18 +69,26 @@
     <!-- MAIN CONTAINER RIGHT -->
     <main class="my_wrapper-main px-0 overflow-auto row">
     <!-- HEADER BOTTOM -->
-        <header id="header-down" class="text-white row mb-4">
-            <div class="col-12 d-md-none">Nuovo Studente</div>
-            <div class="col-12 col-md-4">Boolean</div>
-            <div class="col-12 col-md-4">Studenti</div>
-            <div class="d-none d-md-flex col-md-4">Nuovo Studente</div>
+        <header id="header-down" class="text-white row mb-4 pt-4">
+            <div class="d-flex col-md-4 order-md-3">
+                <h3 class="fs-6">Nuovo Studente</h3>
+                <button type="button" class="btn btn-outline-light">+</button>
+            </div>
+            <div class="col-12 col-md-4">
+                <h3>Boolean</h3>
+                <a href=""></a>
+            </div>
+            <div class="col-12 col-md-4">
+                <h3 class="fs-6">Studenti online negli ultimi 30 minuti</h3>
+                <span class="fs-4">125</span>
+            </div>
         </header>
     <!-- SECTION PROSSIME CLASSI -->
-        <section class="col-12 col-lg-8">
-            <article id="prossimeclassi" class="col-12 border">
-                <div class="border">
+        <section class="col-12 col-lg-8 bg-white">
+            <article id="prossimeclassi" class="col-12 border rounded-3 card">
+                <div class="card-header">
                     <h2>Prossime Classi</h2>
-                </div>
+                  </div>
                 <table class="table">
                     <thead class="">
                     <tr>
@@ -94,7 +102,7 @@
                 </thead>
                 <tbody class="">
                     <tr class="">
-                        <th class="fw-normal" scope="row">Classe 75</th>
+                        <th class="fw-normal" scope="row"><img src="./img/class-avatar.jpg" alt=""> Classe 75</th>
                         <td class="d-none d-md-table-cell">15 Feb 2021</td>
                         <td class="d-none d-md-table-cell">20%</td>
                         <td>Done</td>
@@ -177,33 +185,27 @@
                 </table>
             </article>
     <!-- SECTION FAQ -->
-            <article id="faq" class="col-12">
-                <div>
+            <article id="faq" class="col-12 card">
+                <div class="card-header">
                     <h2>F.A.Q.</h2>
                 </div>
-                <ul class="border">
-                    <li>
-                        <div>
-                            <p>Come aggiungere un nuovo studente?</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <p>Come posso accedere alle informazioni del mio account?</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <p>Posso usare questa dashboard da mobile?</p>
-                        </div>
-                    </li>
-                </ul>
+                <div class="container my-3">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Come aggiungere un nuovo stundete? <button type="button" class="btn btn-link">Link</button>
+                      </li>
+                      <li class="list-group-item">Come posso accedere alle informazioni del mio account?</li>
+                      <li class="list-group-item">Posso usare questa dashboard da mobile?</li>
+                    </ul>
+                    </ul>
+                </div>
             </article>
         <!-- Section Todo -->
         </section>
         <section class="col-12 col-lg-4">
-            <article class="todo col-12">
-                <h2>Todo</h2>
+            <article class="todo col-12 card">
+                <div class="card-header">
+                    <h2>Todo</h2>
+                </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault">
@@ -224,7 +226,7 @@
                 </div>
             </article>
             <!-- Section GRAPHIC -->
-            <article class="col-12">
+            <article class="col-12 card">
                 <div class="">
                     <img class="img-fluid" src="./img/stats.jpeg" alt="picture graphic">
                     <h3>
