@@ -44,6 +44,18 @@ header#header-top{
    background-color: #051E34;
    position: fixed;
    top: 50px;
+   font-size: .8rem;
+}
+
+aside a,
+aside i{
+    color: white;
+    text-decoration: none;
+}
+
+aside i{
+    width: 18px;
+    height: 18px;
 }
 
 ul li{
@@ -74,10 +86,13 @@ ul li{
 
 @media screen and (min-width: 992px) {
     .my_container-aside{
-        width: 150px;
+        width: 115px;
      }
+     aside i{
+        margin-right: 1rem;
+    }
 
      .my_wrapper-main{
-        margin-left: 150px;
+        margin-left: 115px;
     }
 }
