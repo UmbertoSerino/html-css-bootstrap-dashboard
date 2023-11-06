@@ -103,10 +103,6 @@ article#prossimeclassi button{
     color: #6C757D;
 }
 
-/* article#prossimeclassi i{
-    font-size: .8rem;
-    padding: 0;
-} */
 
 /* SECTION TODO */
 
@@ -147,11 +143,7 @@ article.graphic a{
         margin-right: .7rem;
     }
 
-    article#prossimeclassi button,
-    article#prossimeclassi i{
-    padding: .2rem;
-    font-size: 1rem;
-}
+
 
      .my_wrapper-main{
         margin-left: 115px;
