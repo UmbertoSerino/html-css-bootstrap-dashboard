@@ -20,21 +20,32 @@
     <header id="header-top" class="navbar navbar-expand navbar-light bg-light fixed-top">
         <div class="container-fluid"> 
             <div>
-                <img class="navbar-brand d-lg-none"src="./img/mobile-logo.png" alt="picture logo small boolean">
-                <img class=" navbar-brand d-lg-inline-block d-none" src="./img/logo.svg" alt="pic logo big boolean">
+                <img class="logo-small navbar-brand d-lg-none"src="./img/mobile-logo.png" alt="picture logo small boolean">
+                <img class="logo-big navbar-brand d-lg-inline-block d-none" src="./img/logo.svg" alt="pic logo big boolean">
             </div>        
             <div class="input-group">
                 <button class="btn bg-body-secondary" type="button" id="button-addon1"><i class="fa-solid fa-magnifying-glass"></i></button>
                 <input type="text" class="form-control bg-body-secondary" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Example text with button addon" aria-describedby="button-addon1">
             </div>
-            <div class="d-flex align-items-center ms-4">
+            <div class="d-flex align-items-center ms-4 chebello">
                 <a href=""><i class="fa-solid fa-list d-none d-lg-flex me-3"></i></a>
                 <a href=""><i class="fa-solid fa-circle-question px-2 d-none d-lg-flex me-2"></i>
                 </a>
                 <a href=""><i class="fa-solid fa-ellipsis-vertical px-2 d-none d-lg-flex me-2"></i>
                 </a>
-                <a href=""><i class="fa-solid fa-bell px-2"></i>
-                </a>
+                <div class="d-inline-flex ga-1">
+                    <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fa-solid fa-bell px-2"></i>
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card">
+                            <ul>
+                                <li>Profilo</li>
+                                <li>Fatturazione</li>
+                                <li>Logout</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>       
         </div>
     </header>
@@ -157,7 +168,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 mb-4">
+            <div class="col-12 col-md-2 mb-4">
                 <h3 class="d-inline-block">Boolean</h3>
                 <a href="" class="text-white my_bg-blue rounded-5"><span class="fw-medium">Piano Blaze</span></a>
                 <a href="" class="text-white my_bg-blue rounded-5"><span>3 app</span></a>
@@ -167,9 +178,9 @@
                 <a href="" class="text-white my_bg-blue rounded-5 d-none d-lg-inline"><span>Boolean web app</span></a>
                 <a href="" class="text-white my_bg-blue rounded-5 d-none d-lg-inline"><span>Boolean blog app</span></a>
             </div>
-            <div class="col-12 col-md-4">
-                <h3 class="offset-2 fs-6">Studenti online negli ultimi 30 minuti</h3>
-                <span class="offset-2 fs-4">125</span>
+            <div class="col-12 offset-md-2 col-md-4">
+                <h3 class="fs-6">Studenti online negli ultimi 30 minuti</h3>
+                <span class="fs-4">125</span>
             </div>
         </header>
         <!-- SECTION PROSSIME CLASSI -->

@@ -17,12 +17,9 @@ header#header-top{
     height: 50px;
 }
 
-#header-top div{
-    height: 100%;
-}
-
-#header-top img{
-    height: 100%;
+#header-top .logo-small,
+#header-top .logo-big{
+    height: 50px;
 }
 
 #header-top i.fa-bell{
@@ -62,7 +59,7 @@ ul li{
     list-style-type: none;
 }
 
-li:hover{
+aside li:hover{
     background-color: rgba(255, 255, 255, .5);
     cursor: pointer;
 }
@@ -82,6 +79,7 @@ li:hover{
 .my_bg-blue{
     background-color: #165BBA;
 }
+
 
 /* MAIN */
 
