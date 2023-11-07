@@ -91,13 +91,11 @@ aside li:hover{
 /* MAIN */
 
 .my_wrapper-main{
-    margin-left: 70px;
+    width: calc(100% - 70px);
     margin-top: 50px;
+    margin-left: 70px;
 }
 
-.my_container{
-    width: 100%;
-}
 
 main article#prossimeclassi img{
     width: 25px;
@@ -154,6 +152,7 @@ article.graphic a{
     }
 
      .my_wrapper-main{
+        width: calc(100% - 150px);
         margin-left: 150px;
     }
 }
