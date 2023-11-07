@@ -32,9 +32,9 @@ header#header-top{
 }
 
 div.dropdown ul#my_dropdown-menu{
+    top: 100%;
     position: absolute;
-    right: 0;
-
+    right: 100px;
 }
 
 
