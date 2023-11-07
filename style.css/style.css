@@ -17,9 +17,13 @@ header#header-top{
     height: 70px;
 }
 
-#header-top .logo-small,
-#header-top .logo-big{
+#header-top .logo-small{
     height: 60px;
+}
+
+#header-top .logo-big{
+    height: 35px;
+    padding-left: .7rem;
 }
 
 #header-top i.fa-bell{
@@ -27,7 +31,7 @@ header#header-top{
 }
 
 #header-top a{
-    color: black;
+    color: #5B5858;
     text-decoration: none;
 }
 
@@ -35,7 +39,7 @@ div.dropdown ul#my_dropdown-menu{
     top: 100%;
     position: absolute;
     left: auto;
-    right: 0;
+    right: 20px;
 }
 
 
@@ -58,7 +62,6 @@ aside i{
 }
 
 aside i{
-
     font-size: 1.1rem;
 }
 
@@ -94,6 +97,7 @@ aside li:hover{
 
 .my_container-offcanvas.offcanvas-end{
     width: 100%;
+    position: absolute;
 }
 
 
@@ -125,15 +129,15 @@ article#prossimeclassi td{
     text-align: center;
 }
 
-article#prossimeclassi span{
+article#prossimeclassi span,
+article.todo label,
+article.graphic p,
+article.graphic span,
+article.graphic a{
     font-size: .7rem;
 }
 
 /* SECTION TODO */
-
-article.todo label {
-    font-size: .7rem;
-}
 
 article.todo li {
     padding: .4rem .5rem;
@@ -141,13 +145,12 @@ article.todo li {
 
 /* SECTION GRAPHIC */
 
-article.graphic p,
-article.graphic span,
-article.graphic a{
-    font-size: .74rem;
-}
 
 @media screen and (min-width: 576px) {
+
+    .my_container-offcanvas.offcanvas-end{
+        width: 50%;
+    }
 
 }
 
@@ -165,7 +168,4 @@ article.graphic a{
         margin-left: 150px;
     }
 
-    .my_container-offcanvas.offcanvas-end{
-        width: 50%;
-    }
 }
