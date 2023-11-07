@@ -75,14 +75,14 @@
     </aside>
     <!-- MAIN CONTAINER RIGHT -->
     <main class="my_wrapper-main p-0 overflow-y-auto row">
-    <!-- HEADER BOTTOM -->
-        <header id="header-down" class="row text-white d-flex justify-content-center mb-4 py-4">
-            <div class="col-md-4 order-md-3">
-                <h3 class="fs-6 d-inline-block me-3 mb-5">Nuovo Studente</h3>
+    <!-- HEADER DOWN -->
+        <header id="header-down" class="d-flex flex-column flex-md-row  mb-4 py-2 text-white">
+            <article class="col-md-4 order-md-3 pt-3 mb-4 pt-md-3 mb-md-0 text-md-center">
+                <h3 class="fs-6 fs- d-inline-block me-3">Nuovo Studente</h3>
                 <!-- OFFCANVAS -->
                 <button class="btn btn-primary btn btn-outline-light btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i>
                 </button>
-                <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas my_container-offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuobo utente</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -163,8 +163,8 @@
                         </form>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-4 mb-4">
+            </article>
+            <article class="col-6 col-md-4 mb-4 pt-md-3">
                 <h3 class="d-inline-block">Boolean</h3>
                 <a href="" class="text-white my_bg-blue rounded-5"><span class="fw-medium">Piano Blaze</span></a>
                 <a href="" class="text-white my_bg-blue rounded-5"><span>3 app</span></a>
@@ -173,11 +173,11 @@
                 <a href="" class="text-white my_bg-blue rounded-5 d-none d-lg-inline"><span>Boolean mobile app</span></a>
                 <a href="" class="text-white my_bg-blue rounded-5 d-none d-lg-inline"><span>Boolean web app</span></a>
                 <a href="" class="text-white my_bg-blue rounded-5 d-none d-lg-inline"><span>Boolean blog app</span></a>
-            </div>
-            <div class="col-12 col-md-4">
-                <h3 class="fs-6">Studenti online negli ultimi 30 minuti</h3>
-                <span class="fs-4">125</span>
-            </div>
+            </article>
+            <article class="col-12 col-md-4 mb-3 text-md-center pt-md-3">
+                <h3 class="fs-6 ">Studenti online negli ultimi 30 minuti</h3>
+                <span class="my_font-span">125</span>
+            </article>
         </header>
         <!-- SECTION PROSSIME CLASSI -->
         <section class="col-12 col-lg-8 pe-4">
@@ -358,7 +358,7 @@
                             </label>
                         </li>
                         <li class="list-group-item d-flex align-items-center">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckChecked" checked>
                             <label class="form-check-label" for="flexCheckChecked">
                                 Lezione su Bootstrap 5 in classe #75
                             </label>

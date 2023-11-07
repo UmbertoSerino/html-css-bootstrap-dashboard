@@ -14,12 +14,12 @@ body{
 
 header#header-top{
     width: 100vw;
-    height: 50px;
+    height: 70px;
 }
 
 #header-top .logo-small,
 #header-top .logo-big{
-    height: 50px;
+    height: 60px;
 }
 
 #header-top i.fa-bell{
@@ -43,11 +43,11 @@ div.dropdown ul#my_dropdown-menu{
 
 .my_container-aside{
    width: 70px;
-   height: calc(100% - 50px);
+   height: calc(100% - 70px);
    background-image: url(../img/sidebar-bg.png);
    background-color: #051E34;
    position: fixed;
-   top: 50px;
+   top: 70px;
    font-size: .8rem;
 }
 
@@ -58,8 +58,13 @@ aside i{
 }
 
 aside i{
-    width: 18px;
-    height: 18px;
+
+    font-size: 1.1rem;
+}
+
+header#header-down span.my_font-span{
+    font-size: 1.7rem;
+    font-weight: 500;
 }
 
 ul li{
@@ -87,12 +92,16 @@ aside li:hover{
     background-color: #165BBA;
 }
 
+.my_container-offcanvas.offcanvas-end{
+    width: 100%;
+}
+
 
 /* MAIN */
 
 .my_wrapper-main{
     width: calc(100% - 70px);
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 70px;
 }
 
@@ -154,5 +163,9 @@ article.graphic a{
      .my_wrapper-main{
         width: calc(100% - 150px);
         margin-left: 150px;
+    }
+
+    .my_container-offcanvas.offcanvas-end{
+        width: 50%;
     }
 }
