@@ -31,6 +31,12 @@ header#header-top{
     text-decoration: none;
 }
 
+div.dropdown ul#my_dropdown-menu{
+    position: absolute;
+    right: 0;
+
+}
+
 
 /* ASIDE */
 
